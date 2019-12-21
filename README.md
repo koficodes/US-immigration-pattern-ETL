@@ -68,7 +68,7 @@ fact_immigration
 - **city**: name of city
 - **arrival_date**: arrival date of respondant
 - **departure_date**: departure date of respondant
-- **age: age of respondant
+- **age**: age of respondant
 - **visa_code**: Visa code to represent visa type Business/Pleasure/Student
 - **gender**: 
 
