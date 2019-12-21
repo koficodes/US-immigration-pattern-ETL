@@ -31,7 +31,25 @@ The data was modeled using the star schema with:
  - dim_city  
  - dim_temperature  
  - dim_visa  
- 
+
+### Data Cleaning
+Temperature:
+ - rows with `null` average temeperature where removed
+ - data was filtered to cities in the US only
+ - duplicate city rows where also removed
+Immigration:
+ - city with `null` values are removed
+ - columns where renamed according to data model
+
+Airports:
+ - city with `null` values are removed
+ - rows with empy iata columns where removed
+ - data filtered to cities in the US only
+
+Demographics:
+- duplicate city rows where removed
+- columns where renamed according to data model
+
 ### Data Quality Checks
 
 After runing the pipeline two data quality checks are perfomed.
